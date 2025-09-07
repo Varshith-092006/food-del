@@ -14,7 +14,7 @@ const port = 4000
 
 // middleware
 app.use(express.json())
-app.use(cors({origin: ["https://food-del-rust.vercel.app","https://food-del-axkt.vercel.app","http://localhost:5173","http://localhost:5174"],
+app.use(cors({origin: ["https://food-del-axkt-git-main-varshiths-projects-3c9d2af7.vercel.app","https://food-del-rust.vercel.app","https://food-del-axkt.vercel.app","http://localhost:5173","http://localhost:5174"],
     credentials: true}))
 
 // db connection
